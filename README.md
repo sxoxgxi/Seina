@@ -1,6 +1,6 @@
 ## About Seina
 Made this as a hobby :p
-[![Join Our Discord]](https://ukatoverse.com/discord/)
+[Join Our Discord](https://ukatoverse.com/discord/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
