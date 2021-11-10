@@ -18,7 +18,7 @@ def get_prefix(bot, message):
 		
 		return '!'
 
-	return ['!']
+	return ['!', '<@855532968349270026>]
 
 
 bot = commands.Bot(command_prefix=get_prefix, description="It's not because I like u or anything")
