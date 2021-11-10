@@ -1,3 +1,5 @@
+# some sec c content 
+
 from discord.ext import commands
 import asyncio
 import discord
@@ -187,9 +189,6 @@ class NSFW(commands.Cog):
       embed.set_author(name="Baakaa!", url='https://ukatoverse.com/discord')
       await ctx.send(embed=embed)
       
- 
- 
-
 
 def setup(bot):
     bot.add_cog(NSFW(bot))   
