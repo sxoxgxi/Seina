@@ -34,7 +34,7 @@ if __name__=='__main__':
 async def on_ready():
     print ("Bot online!")
     await bot.change_presence(activity=discord.Streaming(name="Please don't make me think about life", url="https://www.twitch.tv/Twitch"))
-    channel = bot.get_channel(902743993408954458)
+    channel = bot.get_channel(channelID)
     
     embed = discord.Embed(title="<:emoji_23:903181135016787978> Bot Booted Successfully", description=f'<a:online:859859291586822154> **I have been updated and am now alive again!\n<a:DA_loveheart:862411473632755764> Heartbeat = > {round(bot.latency * 1000)} bpm!**', color=0xce2167)
     await channel.send(embed=embed)
@@ -86,7 +86,7 @@ async def on_guild_join(guild):
 
 @bot.event
 async def on_command(ctx):
-    channel = bot.get_channel(902743993408954458)
+    channel = bot.get_channel(channelID)
     server = ctx.guild.name
     user = ctx.author
     command = ctx.command
